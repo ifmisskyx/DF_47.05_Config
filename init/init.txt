@@ -8,15 +8,15 @@ circumstances, unpack a new DF on top of an older one.
 
 Change this to turn sound off.
 
-[SOUND:YES]
+[SOUND:NO]
 
 The sound volume runs from 0 (off) to 255 (full).  You can set the volume from the ESC options menu as well.
 
-[VOLUME:255]
+[VOLUME:10]
 
 Change this to skip the wonderful intro movies.
 
-[INTRO:YES]
+[INTRO:NO]
 
 This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or PROMPT.
 
@@ -118,7 +118,7 @@ increasing grid size by 10 units each time you zoom.
 
 Change this to NO if you don't want to have the mouse involved at all.
 
-[MOUSE:YES]
+[MOUSE:NO]
 
 Change this to YES if you'd like to use a BMP for the mouse cursor.  The image currently lags when the game is lagging however.
 

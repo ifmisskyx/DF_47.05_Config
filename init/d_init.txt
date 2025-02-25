@@ -8,13 +8,13 @@ circumstances, unpack a new DF on top of an older one.
 
 Use these to control the automatic saving behavior in the dwarf fortress mode of game.  AUTOSAVE can be set to NONE, SEASONAL or YEARLY.  This updates your save at these intervals, so that some of your progress will be saved in case of system instability.  You can set AUTOBACKUP to YES if you want the updated save to be copied to another folder so that you'll have several copies of your world at different times.  Set AUTOSAVE_PAUSE to YES if you want the game to pause every time it autosaves.
 
-[AUTOSAVE:NONE]
-[AUTOBACKUP:NO]
+[AUTOSAVE:YEARLY]
+[AUTOBACKUP:YES]
 [AUTOSAVE_PAUSE:NO]
 
 Set this to YES if you want it to save the game when you start a new fortress.  If AUTOBACKUP above is set to YES, it will also create a copy of this new save.
 
-[INITIAL_SAVE:NO]
+[INITIAL_SAVE:YES]
 
 Set this to NO to make Dwarf Fortress remain in the saved pause state when you load an active game.
 
@@ -51,7 +51,7 @@ Change this to YES to output the reasons for world map rejection into a file.
 
 Change these numbers to make the embark rectangle start at a different size.  The format is (EMBARK_RECTANGLE:<width>:<height>).  Numbers may run from 2 to 16.  The map size warning message will go by these numbers.
 
-[EMBARK_RECTANGLE:4:4]
+[EMBARK_RECTANGLE:2:2]
 
 Change these numbers to set the default weights for traffic designations.  If you make the last numbers too large, pathfinding might lag.
 The format is (PATH_COST:<high>:<normal>:<low>:<restricted>).
