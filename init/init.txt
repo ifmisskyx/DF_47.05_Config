@@ -64,7 +64,7 @@ On a multi-core machine none of this is very likely to matter; stick to 2D.
 
 Linux/OS X users may also use PRINT_MODE:TEXT for primitive ncurses output.
 
-[PRINT_MODE:2D]
+[PRINT_MODE:SHADER]
 	Mode examples:
 	 PRINT_MODE:2D
 	 PRINT_MODE:TEXT
@@ -82,7 +82,7 @@ Change this to YES to keep the DF window on top of your other windows.
 
 Change this to YES if you want to see an FPS counter at the top left.
 
-[FPS:NO]
+[FPS:YES]
 
 Use this to set the maximum frame rate during play.  The movies are always capped at 100.  A frame in this case is not graphical but related to the movement speed of a creature.  A healthy, unencumbered dwarven peasant takes one step every 10 frames.
 
@@ -105,7 +105,7 @@ This sets the applications vertical synchronization behavior.  Changing this to 
 Change this to NEAREST if you want the texture values to use the nearest pixel without averaging.
 Change this to LINEAR if you want the texture values to be averaged over the adjacent pixels.
 
-[TEXTURE_PARAM:LINEAR]
+[TEXTURE_PARAM:NEAREST]
 
 Change this to make the dwarfort.exe process have a different priority.  From highest to lowest, the options are REALTIME, HIGH, ABOVE_NORMAL, NORMAL, BELOW_NORMAL and IDLE.
 
